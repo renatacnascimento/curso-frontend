@@ -2,6 +2,13 @@ html{
 font-size: 62.5%;
 }
 
+.logo{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 body{
 background-color: #f5f5f5;
 font-family: 'Open Sans', sans-serif;
@@ -62,13 +69,14 @@ p{
     color: #454545;
 }
 
-ol{
-    margin-left: 30px;
+a{
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-ol li {
-  font-size: 1.4rem;  
-  color: #454545;
+a:hover{
+    color: #454545; 
 }
 
 section{
@@ -128,3 +136,20 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+.cog-abuse{
+    visibility: hidden !important;
+}
+
+.cog-branding__powered{
+    visibility: hidden !important;
+}
+
+.cog-icon{
+    visibility: hidden !important;
+} 
+
+.cog-i-cogicon{
+    visibility: hidden !important;
+}
+
