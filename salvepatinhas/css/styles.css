@@ -172,10 +172,16 @@ footer small {
 }
 
 @media (max-width: 600px) {
-    nav, article {
+    section nav, section article {
         width: 100%;
         height: auto;
     }
+
+    nav ul {
+        padding-bottom: 20px;
+    }
+
+   
     img{
        max-width: 50vw;
        max-height: auto;
